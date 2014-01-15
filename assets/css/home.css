@@ -1,0 +1,87 @@
+body{
+    background-image:url('../images/homebg.png') !important;
+}
+
+.content{
+    background-image: url("../images/people.png");
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 492px;
+    padding-top: 20px;
+    width: 100%;
+    text-align:center;
+}
+
+.content span{
+    color: #FFFFFF;
+    display: block;
+    font-family: 'MyriadProRegular';
+    font-size: 22px;
+    line-height: 132%;
+    padding-top: 5px;
+}
+
+.content label{
+    color: #97C4FB;
+    display: block;
+    float: left;
+    font-family: 'FuturaMedium';
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons li{
+    background-image: url("../images/button.png");
+    height: 165px;
+    width: 180px;
+    float:left;
+    cursor:pointer;
+    position:relative;
+}
+
+.buttons li.hover{
+    background-position:0 -174px;
+}
+
+.buttons{
+    list-style: none outside none;
+    margin: 21px auto 0;
+    padding: 0;
+    width: 720px;
+}
+
+.buttons li span{
+    bottom: 10px;
+    color: #22282D;
+    font-family: 'FuturaMedium';
+    font-size: 15px;
+    height: 41px;
+    margin-left: 17px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 147px;
+}
+
+.buttons li img{
+    top:30px;
+    left:30px;
+    position:absolute
+}
+
+.buttons li#menu-2 img{
+    top:25px;
+    left:50px;
+}
+
+.buttons li#menu-3 img{
+    top:50px;
+    left:40px;
+}
+
+.buttons li#menu-4 img{
+    top:25px;
+    left:30px;
+}

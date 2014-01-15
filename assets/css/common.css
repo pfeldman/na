@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "HelveticaCE35ThinRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/helvetica_neue_ce_35_thin-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FuturaBkBTBook";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/futura_bk_bt_book-webfont-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FuturaMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/futuram-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("в\98 є"), url("../fonts/myriadpro-regular-webfont.ttf") format("truetype");
+}
+
+body{
+    background-image:url('../images/background.png');
+    background-repeat: repeat-x;
+    margin: 7px 0 0;
+}
+
+a{
+    color:#0E6EBA;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+h1,
+h2{
+    color: #0E6EBA;
+    font-family: 'HelveticaCE35ThinRegular';
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+h2, 
+h4{
+    text-align:center;
+}
+
+h4{
+    color: #4D4D4D;
+    font-family: 'MyriadProRegular';
+}
+
+hr{
+    float: left;
+    width: 100%; 
+}
+fieldset{
+    border:0 none;
+}
+
+.header{
+    float: left;
+    width: 100%;
+}
+
+.header a{
+    font-family:'HelveticaCE35ThinRegular';
+    color:#1978C1;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:41px;
+    float:left;
+}
+
+.header a span{
+    float: right;
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.header a em{
+    color: #333333;
+    display: block;
+    font-family: 'FuturaBkBTBook';
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    text-transform:uppercase;
+    text-align:right;
+    margin-top:-6px;
+}
+
+.search{
+    background: url("../images/search-bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    margin-top: 44px;
+    width: 290px;
+}
+
+.search input[type='text']{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 21px;
+    margin-top: -1px;
+    width: 243px;
+}
+
+.search input[type='submit']{
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/searchicon.png");
+    border: 0 none;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    margin-right: -4px;
+    margin-top: -1px;
+}
+
+.top-menu,
+.sub-menu{
+    clear: both;
+    float: left;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.top-menu > li{
+    background-image: url("../images/topmenu-background.png");
+    background-position: 100% 0;
+    float: left;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-menu > li > a{
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 42px;
+    text-transform: uppercase;
+}
+
+.top-menu > li.hover{
+    background-position: 0 -49px;
+}
+
+.top-menu li a#menu-1{
+    background-image:url('../images/menu1.png');
+}
+
+.top-menu li a#menu-2{
+    background-image:url('../images/menu2.png');
+}
+
+.top-menu li a#menu-3{
+    background-image:url('../images/menu3.png');
+}
+
+.top-menu li a#menu-4{
+    background-image:url('../images/menu4.png');
+}
+
+.top-menu li a#menu-5{
+    background-image:url('../images/menu5.png');
+}
+
+.top-menu li a#menu-6{
+    background-image:url('../images/menu6.png');
+}
+
+.sub-menu{
+    position:absolute;
+    display:none;
+    background-color:#509E45;
+    margin-top:50px;
+    margin-left:-10px;
+}
+
+.top-menu a{
+    font-family: 'FuturaMedium';
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.sub-menu > li{
+    float: left;
+    padding: 5px 3%;
+    width: 94%;
+}
+
+.sub-menu > li > a{
+    display:block;
+    width:100%;
+}
+
+.sub-menu > li.hover{
+    background-color:#65B360;
+}
+
+.box{
+    float:left;
+}
+
+.footer{
+    color: #666666;
+    font-family: 'MyriadProRegular';
+    font-size: 12px;
+    line-height: 180%;
+    margin-top: 20px;
+    text-align: center;
+    background-image:url('../images/footer.png');
+    height:79px;
+}
+
+.footer a{
+    color: #666666;
+}
+
+.footer img{
+    position:relative;
+    top:4px;
+}
