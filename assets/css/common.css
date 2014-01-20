@@ -79,6 +79,11 @@ fieldset{
     text-decoration:none;
     font-size:41px;
     float:left;
+    display:block;
+}
+
+.header .logo img{
+    float:left;
 }
 
 .header a span{
@@ -139,7 +144,7 @@ fieldset{
     background-image: url("../images/topmenu-background.png");
     background-position: 100% 0;
     float: left;
-    margin-top: -10px;
+    margin-top: -8px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -182,11 +187,14 @@ fieldset{
 }
 
 .sub-menu{
-    position:absolute;
-    display:none;
-    background-color:#509E45;
-    margin-top:50px;
-    margin-left:-10px;
+    background-color: #509E45;
+    border-bottom: 1px solid #B9D4EA;
+    border-left: 1px solid #B9D4EA;
+    border-right: 1px solid #B9D4EA;
+    display: none;
+    margin-left: -10px;
+    margin-top: 49px;
+    position: absolute;
 }
 
 .top-menu a{
