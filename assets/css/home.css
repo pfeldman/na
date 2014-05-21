@@ -50,7 +50,7 @@ body{
     list-style: none outside none;
     margin: 21px auto 0;
     padding: 0;
-    width: 720px;
+    width: 550px;
 }
 
 .buttons li span{
@@ -71,17 +71,17 @@ body{
     position:absolute
 }
 
-.buttons li#menu-2 img{
+.buttons li.menu-2 img{
     top:25px;
     left:50px;
 }
 
-.buttons li#menu-3 img{
+.buttons li.menu-3 img{
     top:50px;
     left:40px;
 }
 
-.buttons li#menu-4 img{
+.buttons li.menu-4 img{
     top:25px;
     left:30px;
 }

@@ -9,7 +9,7 @@ Util.extend(NA.WEB, NA, {
     },
     initEvents : function(){
         var topMenu = new NA.UI.Element.TopMenu({
-            dom : $('.top-menu')
+            dom : $('nav > .menu')
         })
         
         var buttons = $('.buttons');
