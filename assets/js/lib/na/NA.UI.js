@@ -98,6 +98,69 @@ Util.extend(NA.UI.Element.TopMenu, NA.UI.Element, {
     }
 })
 
+NA.UI.Element.Button = function(configObj) {
+    this.showText = true;
+    this.icon = null;
+    this.buttonset = false;
+    NA.UI.Element.Button.superclass.constructor.call(this, configObj);
+}
+
+Util.extend(NA.UI.Element.Button, NA.UI.Element, {
+    render : function() {
+        var showText = true;
+        if(this.icon)
+        {
+            showText = this.showText;
+        }
+        
+        if(!this.buttonset)
+        {
+            this.dom.button({
+                icons : {
+                    primary : this.icon
+                },
+                text : showText,
+            });
+        }
+        else
+        {
+            this.dom.buttonset();
+        }
+    }
+})
+
+
+
+NA.UI.Element.Accordion = function(configObj) {
+    NA.UI.Element.Accordion.superclass.constructor.call(this, configObj);
+}
+
+Util.extend(NA.UI.Element.Accordion, NA.UI.Element, {
+    render : function() {
+        this.dom.accordion();
+    }
+})
+
+NA.UI.Element.DatePicker = function(configObj) {
+    NA.UI.Element.DatePicker.superclass.constructor.call(this, configObj);
+}
+
+Util.extend(NA.UI.Element.DatePicker, NA.UI.Element, {
+    render : function() {
+        this.dom.datepicker();
+    }
+})
+
+NA.UI.Element.Combobox = function(configObj) {
+    NA.UI.Element.Combobox.superclass.constructor.call(this, configObj);
+}
+
+Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
+    render : function() {
+        this.dom.combobox();
+    }
+})
+
 NA.UI.Element.Buttons = function(configObj) {
     NA.UI.Element.Buttons.superclass.constructor.call(this, configObj);
     this.boot();

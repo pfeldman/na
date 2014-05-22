@@ -30,6 +30,7 @@ body{
     background-image:url('../images/background.png');
     background-repeat: repeat-x;
     margin: 7px 0 0;
+    font-size:62.5%;
 }
 
 a{

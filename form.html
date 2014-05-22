@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html lang="es">
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/third-party/jquery.ui.combobox.js"></script>
+        <script type="text/javascript" src="assets/js/lib/third-party/jquery.ui.datepicker-es.js"></script>
+        
+        <script type="text/javascript" src="assets/js/lib/na/NA.js"></script>
+        <script type="text/javascript" src="assets/js/lib/na/NA.UI.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.WEB.js"></script>
+        
+        <link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+        <link rel="stylesheet" href="assets/css/960.css" />
+        <link rel="stylesheet" href="assets/css/common.css" />
+        <link rel="stylesheet" href="assets/css/combobox.css" />
+        <link rel="stylesheet" href="assets/css/input.css" />
+        
+        <!-- 
+            REPLACE smoothness with the theme name, choose one of following:
+              -  ui-lightness
+              -  ui-darkness
+              -  smoothness
+              -  start
+              -  redmond
+              -  sunny
+              -  overcast
+              -  le-frog
+              -  flick
+              -  pepper-grinder
+              -  eggplant
+              -  dark-hive
+              -  cupertino
+              -  south-street
+              -  blitzer
+              -  humanity
+              -  hot-sneaks
+              -  excite-bike
+              -  vader
+              -  dot-luv
+              -  mint-choc
+              -  black-tie
+              -  trontastic
+              -  swanky-purse
+        //-->
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        
+        <!-- STYLE JUST FOR TEST PAGE -->
+        <style>
+            .header{
+                padding-bottom: 117px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper container_24 lightness">
+            <div class="header">
+                <a class="logo" href="/">
+                    <img src="assets/images/logo.png" />
+                    <span>
+                        <label>Narcóticos Anónimos</label>
+                        <em>Argentina</em>
+                    </span>
+                </a>
+                <form class="search" method="POST" action="search.php">
+                    <fieldset>
+                        <input type="text" name="search" />
+                        <input type="submit" value="" />
+                    </fieldset>
+                </form>
+            </div>
+           <div class="container grid_24">
+                <div id="accordion">
+                    <h3>Buttons</h3>
+                    <div>
+                        <button class="ui-normal">A button element</button>
+                        <input type="submit" value="A submit button" class="ui-normal">
+                        <a href="#" class="ui-normal">An anchor</a>
+                        
+                        <input type="checkbox" id="check" class="ui-normal" /><label for="check">Check 1</label>
+                        <div class="checkGroup">
+                                <input type="checkbox" id="check1" /><label for="check1">Check 2</label>
+                                <input type="checkbox" id="check2" /><label for="check2">Check 3</label>
+                                <input type="checkbox" id="check3" /><label for="check3">Check 4</label>
+                        </div>
+                        
+                        <button class="ui-icons ui-notext">Button with icon only</button>
+                        <button class="ui-icons ui-text">Button with icon on the left</button>
+                        
+                        <div class="checkGroup">
+                                <input type="radio" id="radio1" name="radio" /><label for="radio1">Choice 1</label>
+                                <input type="radio" id="radio2" name="radio" checked="checked" /><label for="radio2">Choice 2</label>
+                                <input type="radio" id="radio3" name="radio" /><label for="radio3">Choice 3</label>
+                        </div>
+                    </div>
+                    <h3>Datepicker</h3>
+                    <div>
+                        <p>Date: <input type="text" id="datepicker" class="ui-state-default"></p>
+                    </div>
+                    <h3>Combobox</h3>
+                    <div>
+                        <p>
+                            <label>Seleccione uno:</label>
+                            <select id="combobox">
+                                <option value="option1">Opción 1</option>
+                                <option value="option2">Opción 2</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="footer">
+            <div class="container_24">
+                <div class="topPart">
+                    <a href="/?ID=literature">Literature &amp; Other Products</a><label class="sep">|</label>
+                    <a href="/?ID=news">News</a> <label class="sep">|</label>
+                    <a href="/?ID=donation-external-index">Contribute</a> <label class="sep">|</label>
+                    <a href="?ID=home-content-fm">Find a Meeting </a> <label class="sep">|</label>
+                    <img alt="RSS" src="assets/images/rss.png" />
+                    <a href="#">RSS</a>
+                    <label class="sep">|</label>
+                    <img alt="Mobile site" src="assets/images/mobile.png" />
+                    <a href="http://m.na.localhost/">Mobile site</a>
+                </div>
+                <div class="bottomPart">
+                    <label>Copyright 2012 NA World Services, Inc. All rights reserved.</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
