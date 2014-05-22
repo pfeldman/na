@@ -16,10 +16,10 @@
 .custom-combobox-input {
     margin: 0;
     padding: 0.3em;
+    outline:0 none;
 } 
 
 .custom-combobox a{
     height: 19px;
-    margin-top: -2px;
-    outline:0 none;
+    margin-top: 0px !important;
 }

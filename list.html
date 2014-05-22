@@ -1,0 +1,206 @@
+﻿<!doctype html>
+<html lang="es">
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/third-party/jquery.ui.combobox.js"></script>
+        <script type="text/javascript" src="assets/js/lib/na/NA.js"></script>
+        <script type="text/javascript" src="assets/js/lib/na/NA.UI.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.WEB.js"></script>
+        
+        <link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="assets/css/960.css" />
+        <link rel="stylesheet" href="assets/css/common.css" />
+        <link rel="stylesheet" href="assets/css/list.css" />
+        <link rel="stylesheet" href="assets/css/combobox.css" />
+        
+        <!-- STYLE JUST FOR TEST PAGE -->
+        <style>
+            .header{
+                padding-bottom: 117px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper container_24 lightness">
+            <div class="header">
+                <a class="logo" href="/">
+                    <img src="assets/images/logo.png" />
+                    <span>
+                        <label>Narcóticos Anónimos</label>
+                        <em>Argentina</em>
+                    </span>
+                </a>
+                <form class="search" method="POST" action="search.php">
+                    <fieldset>
+                        <input type="text" name="search" />
+                        <input type="submit" value="" />
+                    </fieldset>
+                </form>
+            </div>
+            <div class="container grid_24">
+                <div class="list">
+                    <div class="filter">
+                        <label>Cantidad por página: </label>
+                        <select id="combobox">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                        </select>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li><link rel="stylesheet" href="assets/css/combobox.css" />
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="leftPart">
+                                    <img src="exampleImages/image1.jpg" />
+                                </div>
+                                <div class="rightPart">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                    <p>Consectetur adipiscing elit. Proin a ante dolor. Praesent quis ipsum elit. Mauris nec pharetra mi. Aenean euismod nunc vel nisi commodo, at lobortis ipsum aliquam. Vivamus ornare lorem velit, eu imperdiet diam aliquet ut. Donec adipiscing lectus sed nisl commodo, sit amet lobortis metus tincidunt. In molestie dolor non nisi ultricies eleifend. Aliquam a euismod est. Duis at quam convallis, placerat lectus vel, consectetur neque...</p>
+                                    <label class="seeMore">Ver Más...</label>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="paginator">
+                        <a href="#" class="ui-icon-triangle-1-w ui-icon" /></a>
+                        <a href="#">1</a>
+                        <label class="currentPage">2</label>
+                        <a href="#">3</a>
+                        <a class="more">...</a>
+                        <a href="#">25</a>
+                        <a href="#" class="ui-icon-triangle-1-e ui-icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container_24">
+                <div class="topPart">
+                    <a href="/?ID=literature">Literature &amp; Other Products</a><label class="sep">|</label>
+                    <a href="/?ID=news">News</a> <label class="sep">|</label>
+                    <a href="/?ID=donation-external-index">Contribute</a> <label class="sep">|</label>
+                    <a href="?ID=home-content-fm">Find a Meeting </a> <label class="sep">|</label>
+                    <img alt="RSS" src="assets/images/rss.png" />
+                    <a href="#">RSS</a>
+                    <label class="sep">|</label>
+                    <img alt="Mobile site" src="assets/images/mobile.png" />
+                    <a href="http://m.na.localhost/">Mobile site</a>
+                </div>
+                <div class="bottomPart">
+                    <label>Copyright 2012 NA World Services, Inc. All rights reserved.</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+.list .leftPart{
+    width:30%;
+    float: left;
+}
+
+.list .rightPart{
+    float: right;
+    width: 67%;
+}
+
+.list .leftPart img{
+    width:100%;
+}
+
+.list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.list ul li{
+    border:1px solid #1978C1;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.list ul li > a{
+    display: block;
+    padding: 10px;
+    overflow:hidden;
+    position:relative;
+}
+
+.list ul li > a:hover{
+    background-color:#D5EBFC;
+}
+
+.list .seeMore{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.list h2{
+    font-family: 'FuturaBkBTBook';
+    color: #333333;
+    text-align: left;
+}
+
+.list .rightPart p{
+    color: #111;
+    font-size: 16px;
+    font-family: 'HelveticaCE35ThinRegular';
+}
+
+.list .filter label{
+    font-size:13px;
+}
+
+.list .paginator{
+    width: 147px;
+    margin: 0 auto;
+}
+
+.list .paginator a,
+.list .paginator label{
+    float: left;
+    width: 20px;
+    height: 16px;
+    display: block;
+    border: 1px solid;
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: -1px;
+}
+
+.list .paginator a.ui-icon-triangle-1-w{
+    background-position: -95px -14px;
+}
+
+.list .paginator a.ui-icon-triangle-1-e{
+    background-position: -31px -15px;
+}
+
+.list .paginator label.currentPage{
+    background-color: #0E6EBA;
+    color: white;
+    font-weight: bold;
+}
+
+.list .paginator a:hover{
+    background-color:#D5EBFC;
+}
