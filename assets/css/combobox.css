@@ -21,4 +21,5 @@
 .custom-combobox a{
     height: 19px;
     margin-top: -2px;
+    outline:0 none;
 }
