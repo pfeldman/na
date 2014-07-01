@@ -92,6 +92,54 @@
     color:#2B8E20;
 }
 
+.downloads{
+    float: left;
+    clear: both;
+    width: 98%;
+    border: 1px solid #4D4D4D;
+    padding-left: 2%;
+}
+
+.downloads ul{
+    list-style: outside none;
+    padding:0 !important;
+}
+
+.downloads ul li ul li{
+    float: left;
+    width: 49%;
+    padding-right: 1%;
+}
+
+.downloads > ul > li{
+    float:left;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.downloads h4{
+    text-align:left;
+    margin:0;
+}
+
+.downloads em{
+    color: #6F6F6F;
+}
+
+.downloads label{
+    width: auto !important;     
+}
+
+.downloads a{
+    position: relative;
+    top: 2px;
+    float: right;
+    right: 20px;
+    background-image: url("../images/icons.png");
+    background-position: -84 -77px;
+    padding-left: 14px;
+}
+
 .rightMenu h2 {
     margin: 5px;
     text-align: left;
