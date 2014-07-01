@@ -30,7 +30,6 @@ body{
     background-image:url('../images/background.png');
     background-repeat: repeat-x;
     margin: 7px 0 0;
-    font-size:62.5%;
 }
 
 a{
@@ -144,7 +143,7 @@ nav > .menu > li{
     background-image: url("../images/topmenu-background.png");
     background-position: 100% 0;
     float: left;
-    margin-top: -9px;
+    margin-top: -7px;
     padding-left: 10px;
     padding-right: 10px;
     display: table;
@@ -160,7 +159,7 @@ nav > .menu > li > span{
     vertical-align: middle;
     display: table-cell;
     float: none;
-    max-width: 120px;
+    max-width: 114px;
     height: 49px;
 }
 
@@ -222,7 +221,7 @@ nav > .menu span{
     text-decoration: none;
     color: #FFFFFF;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: normal;
 }
 
