@@ -1,0 +1,63 @@
+.searchGroup form fieldset label{
+    float: left;
+    display: block;
+    width: 76px;
+}
+
+.searchGroup form div{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.results{
+    list-style: outside none;
+    padding: 0;
+    float: left;
+    width:100%;
+}
+
+.results h3{
+    margin-bottom: 1px;
+}
+
+.results ul{
+    list-style: outside none;
+    padding: 0;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.results ul li label{
+    float:left;
+    max-width:300px;
+    clear:none;
+    width: auto;
+    margin-right: 8px;
+}
+
+.results li{ /* BOTH LI */
+    float:left;
+    clear:both;
+}
+
+.results > li{
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 15px;
+    width:100%;
+}
+
+.results ul li label.day{
+    width: 100px;
+    font-weight: bold;
+}
+
+.results .feature{
+    background-image: url("../images/icons.png");
+    background-position: -84px -57px;
+    padding-left: 21px;
+    float: left;
+    clear: both;
+    margin-top: 5px;
+}
