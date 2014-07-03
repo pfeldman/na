@@ -18,25 +18,41 @@ Util.extend(NA.WEB, NA, {
          * 
          */
         
-        var newBut = new NA.UI.Element.Button({
-            dom : $(".ui-normal")
-        }).render();
+        var button = $(".ui-normal");
+        if(button.length > 0)
+        {
+            var newBut = new NA.UI.Element.Button({
+                dom : button
+            }).render();
+        }
         
-        var group = new NA.UI.Element.Button({
-            dom : $(".checkGroup"),
-            buttonset : true
-        }).render();
+        var buttonGroup = $(".checkGroup");
+        if(buttonGroup.length > 0)
+        {
+            var group = new NA.UI.Element.Button({
+                dom : buttonGroup,
+                buttonset : true
+            }).render();
+        }
         
-        var iconsOnly = new NA.UI.Element.Button({
-            dom : $(".ui-icons.ui-notext"),
-            icon : "ui-icon-locked",
-            showText : false
-        }).render();
+        var buttonIcons = $(".ui-icons.ui-notext");
+        if(buttonIcons.length > 0)
+        {
+            var iconsOnly = new NA.UI.Element.Button({
+                dom : buttonIcons,
+                icon : "ui-icon-locked",
+                showText : false
+            }).render();
+        }
         
-        var iconsAndText = new NA.UI.Element.Button({
-            dom : $(".ui-icons.ui-text"),
-            icon : "ui-icon-gear"
-        }).render();
+        var buttonIconsText = $(".ui-icons.ui-text");
+        if(buttonIconsText.length > 0)
+        {
+            var iconsAndText = new NA.UI.Element.Button({
+                dom : buttonIconsText,
+                icon : "ui-icon-gear"
+            }).render();
+        }
         
         
         /*
@@ -44,9 +60,13 @@ Util.extend(NA.WEB, NA, {
          * 
          */
         
-        var accordion = new NA.UI.Element.Accordion({
-            dom : $("#accordion")
-        }).render();
+        var accorionElement = $("#accordion");
+        if(accorionElement.length > 0)
+        {
+            var accordion = new NA.UI.Element.Accordion({
+                dom : accorionElement
+            }).render();
+        }
         
         
         /*
@@ -54,18 +74,21 @@ Util.extend(NA.WEB, NA, {
          * 
          */
         
-        var datepicker = new NA.UI.Element.DatePicker({
-            dom : $("#datepicker")
-        }).render();
+        var datepickerElement = $("#datepicker");
+        if(datepickerElement.length > 0)
+        {
+            var datepicker = new NA.UI.Element.DatePicker({
+                dom : datepickerElement
+            }).render();
+        }
        
         
         /*
          * Combobox Configutation Example
          * 
          */
-        
         var combobox = new NA.UI.Element.Combobox({
-            dom : $("#combobox")
+            dom : $("#combobox, .combobox")
         }).render();
         
         

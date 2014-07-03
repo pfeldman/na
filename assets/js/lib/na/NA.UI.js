@@ -29,7 +29,7 @@ NA.UI.Element = function(configObj) {
     this.container = null;
     this.children = [];
     this.debug = false;
-
+    
     NA.UI.Element.superclass.constructor.call(this, configObj);
 
     if(this.container == null && this.dom != null)
@@ -157,7 +157,7 @@ NA.UI.Element.Combobox = function(configObj) {
 
 Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
     render : function() {
-        console.log(this.dom);
+        console.log(this.dom)
         this.dom.combobox();
     }
 })
