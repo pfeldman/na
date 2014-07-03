@@ -17,9 +17,14 @@
     margin: 0;
     padding: 0.3em;
     outline:0 none;
+    font-size:11px !important;
 } 
 
 .custom-combobox a{
-    height: 19px;
-    margin-top: 0px !important;
+    height: 18px;
+    margin-top: 1px !important;
+}
+
+ul.ui-autocomplete{
+    font-size:11px;
 }

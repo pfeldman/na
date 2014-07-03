@@ -67,6 +67,63 @@ fieldset{
     border:0 none;
 }
 
+.breadcrumb{
+    float:left;
+    clear:both;
+    padding-top:10px;
+    color:#666666;
+}
+
+.breadcrumb *{ 
+    font-size:11px !important;
+    float:left;
+    padding-right:5px;
+}
+
+.breadcrumb a{
+    color:#2872B8;
+    font-family: arial,helvetica, sans-serif;
+    font-weight:normal;
+    text-decoration: underline;
+}
+
+.breadcrumb a:last-child{
+    color:#666666 !important;
+    text-decoration:none;
+    cursor:default;
+}
+
+.breadcrumb label{
+    font-size: 8px !important;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.container{
+    margin-top:30px;
+    font-family:'MyriadProRegular';
+    font-weight:normal;
+    font-size:14px;
+    color:#4D4D4D;
+}
+
+.container label{
+    float:left;
+    clear:both;
+    margin-top:3px;
+    margin-right:3px;
+    width:100%;
+}
+
+.container p{
+    float:left;
+    margin-top:0;
+}
+
+.container ul{
+    padding-top:0;
+}
+
 .header{
     float: left;
     width: 100%;
@@ -126,6 +183,7 @@ fieldset{
     cursor: pointer;
     float: right;
     height: 20px;
+    width:19px !important;
     margin-right: -4px;
     margin-top: -1px;
 }

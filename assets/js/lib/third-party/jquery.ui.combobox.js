@@ -1,5 +1,4 @@
-
-  (function( $ ) {
+(function( $ ) {
     $.widget( "custom.combobox", {
       _create: function() {
         this.wrapper = $( "<span>" )
@@ -119,7 +118,7 @@
         this._delay(function() {
           this.input.tooltip( "close" ).attr( "title", "" );
         }, 2500 );
-        this.input.data( "ui-autocomplete" ).term = "";
+        this.input.autocomplete( "instance" ).term = "";
       },
  
       _destroy: function() {
