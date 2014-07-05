@@ -1,0 +1,28 @@
+nav{
+    margin-top:-13px;
+}
+
+.menu a,
+.menu span{
+    margin-top:9px;
+}
+
+
+.menu a,
+.menu span{
+    background-position:0 0 !important;
+}
+
+nav > .menu > li > a,
+nav > .menu > li > span{
+    display:block !important;
+}
+
+.search{
+    padding-left:2px;
+}
+
+.search input[type='submit']{
+    margin-top:-23px;
+    margin-bottom:23px;
+}

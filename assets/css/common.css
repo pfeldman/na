@@ -64,7 +64,9 @@ hr{
     width: 100%; 
 }
 fieldset{
-    border:0 none;
+    border: 0 none;
+    padding-right: 7px;
+    padding-top: 4px;
 }
 
 .breadcrumb{
@@ -137,16 +139,27 @@ fieldset{
     font-size:41px;
     float:left;
     display:block;
+    max-width: 456px;
 }
 
 .header .logo img{
     float:left;
+    border:0 none;
+    position:relative;
+}
+
+.header .logo label,
+.header .logo span{
+    width:362px;
+    display:block;
+    white-space:nowrap;
 }
 
 .header a span{
     float: right;
     margin-left: 13px;
     margin-top: 9px;
+    position:relative;
 }
 
 .header a em{
@@ -162,10 +175,15 @@ fieldset{
 }
 
 .search{
-    background: url("../images/search-bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../images/search-bg.png");
     float: right;
     margin-top: 44px;
     width: 290px;
+    margin-bottom:1em;
+    padding-bottom:5px;
+    padding-right:1px;
+    padding-top:1px;
+    background-repeat:no-repeat;
 }
 
 .search input[type='text']{
@@ -177,15 +195,13 @@ fieldset{
 }
 
 .search input[type='submit']{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     background-image: url("../images/searchicon.png");
     border: 0 none;
     cursor: pointer;
     float: right;
     height: 20px;
     width:19px !important;
-    margin-right: -4px;
-    margin-top: -1px;
 }
 
 .menu{
@@ -193,8 +209,15 @@ fieldset{
     float: left;
     list-style: none outside none;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -6px;
     padding: 0;
+}
+
+nav{
+    width:960px;
+    display:block;
+    margin:0;
+    padding:0;
 }
 
 nav > .menu > li{
