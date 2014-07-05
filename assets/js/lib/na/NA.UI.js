@@ -91,10 +91,10 @@ Util.extend(NA.UI.Element.TopMenu, NA.UI.Element, {
         })
     },
     open : function(menu) {
-        menu.find('ul').show();
+        menu.find("ul").css("visibility", "visible");
     },
     close : function(menu) {
-        menu.find('ul').hide();
+        menu.find("ul").css("visibility", "hidden");
     }
 })
 
