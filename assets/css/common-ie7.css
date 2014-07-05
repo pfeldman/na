@@ -27,13 +27,14 @@ nav > .menu > li > span{
     margin-bottom:23px;
 }
 
-.menu .menu{
+nav > .menu > li > .menu{
     position:absolute;
     top:0;
     margin-top:50px !important;
     left:0;
     margin-left:0 !important;
     z-index:10;
+    overflow:visible !important;
 }
 
 .menu .menu li{

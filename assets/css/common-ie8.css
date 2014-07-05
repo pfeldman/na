@@ -1,3 +1,7 @@
 .menu{
     margin-top:0px;
 }
+
+nav > .menu > li{
+    margin-top:-5px;
+}
