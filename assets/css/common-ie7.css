@@ -26,3 +26,68 @@ nav > .menu > li > span{
     margin-top:-23px;
     margin-bottom:23px;
 }
+
+.menu .menu{
+    position:absolute;
+    top:0;
+    margin-top:50px !important;
+    left:0;
+    margin-left:0 !important;
+    z-index:10;
+}
+
+.menu .menu li{
+    display:block;
+    width:100% !important;
+    position:relative;
+    float:none !important;
+}
+
+nav > .menu > li{
+    position:relative;
+    margin-top:-6px;
+}
+
+.buttons span{
+    background-image:none !important;
+    left:0 !important;
+}
+
+.container p{
+    display:block;
+    width:100%;
+    float:none;
+}
+
+.downloads{
+    padding-top:10px;
+}
+
+.downloads ul{
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+.downloads ul li li{
+    display:block;
+    width:300px !important;
+}
+
+.custom-combobox a{
+    margin-top:-11px !important;
+}
+
+.header{
+    z-index:10;
+    position:relative;
+}
+
+.results .feature{
+    width:160px;
+    display:block;
+}
+
+.results > li{
+    margin-bottom:15px;
+}

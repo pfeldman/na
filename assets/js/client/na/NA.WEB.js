@@ -87,9 +87,13 @@ Util.extend(NA.WEB, NA, {
          * Combobox Configutation Example
          * 
          */
-        var combobox = new NA.UI.Element.Combobox({
-            dom : $("#combobox, .combobox")
-        }).render();
+        var comboboxElement = $(".combobox, #combobox");
+        if(comboboxElement.length > 0)
+        {
+            var combobox = new NA.UI.Element.Combobox({
+                dom : comboboxElement
+            }).render();
+        }
         
         
         

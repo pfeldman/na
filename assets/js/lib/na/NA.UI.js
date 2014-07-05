@@ -119,7 +119,7 @@ Util.extend(NA.UI.Element.Button, NA.UI.Element, {
                 icons : {
                     primary : this.icon
                 },
-                text : showText,
+                text : showText
             });
         }
         else
@@ -157,7 +157,6 @@ NA.UI.Element.Combobox = function(configObj) {
 
 Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
     render : function() {
-        console.log(this.dom)
         this.dom.combobox();
     }
 })
