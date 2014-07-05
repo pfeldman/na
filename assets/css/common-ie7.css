@@ -37,6 +37,12 @@ nav > .menu > li > .menu{
     overflow:visible !important;
 }
 
+nav > .menu > li > .menu li{
+    padding-top:1px;
+    padding-bottom:6px;
+    height:23px;
+}
+
 .menu .menu li{
     display:block;
     width:100% !important;
