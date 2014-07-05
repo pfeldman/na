@@ -21,8 +21,8 @@
 } 
 
 .custom-combobox a{
-    height: 18px;
-    margin-top: 1px !important;
+    height:19px;
+    margin-top:-3px !important;
 }
 
 ul.ui-autocomplete{
