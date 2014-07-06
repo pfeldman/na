@@ -156,8 +156,24 @@ NA.UI.Element.Combobox = function(configObj) {
 }
 
 Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
+    destroyDOM : function() {
+        if(this.dom)
+        {
+            this.dom.stop();
+            this.dom.unbind();
+
+            this.dom.next().stop();
+            this.dom.next().unbind();
+            this.dom.next().remove();
+        }
+    },
+
     render : function() {
-        this.dom.combobox();
+        this.dom.selectmenu({
+            width: this.width,
+            direction: 'down',
+            change: this.changeEvent
+        });
     }
 })
 

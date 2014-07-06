@@ -91,7 +91,12 @@ Util.extend(NA.WEB, NA, {
         if(comboboxElement.length > 0)
         {
             var combobox = new NA.UI.Element.Combobox({
-                dom : comboboxElement
+                dom: comboboxElement,
+                width: 200,
+                value: "Hola",
+                changeEvent: function(obj, item) {
+                    alert(1);
+                }
             }).render();
         }
         

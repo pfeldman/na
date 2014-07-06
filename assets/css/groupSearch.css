@@ -1,14 +1,23 @@
 .searchGroup form fieldset label{
-    float: left;
     display: block;
-    width: 76px;
+    float: left;
+    margin-right: 10px;
+    width: auto;
 }
 
-.searchGroup form div{
+.searchGroup form > fieldset > div{
     float: left;
     margin-bottom: 5px;
-    margin-right: 48px;
+    margin-right: 59px;
     margin-top: 5px;
+}
+
+.searchGroup form > fieldset > div div{
+    float:left;
+}
+
+.searchGroup form div.last{
+    margin-right:0 !important;
 }
 
 .results{
@@ -101,5 +110,5 @@
 }
 
 .paginator{
-    float:left;
+    float:right;
 }
