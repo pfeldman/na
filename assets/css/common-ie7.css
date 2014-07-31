@@ -43,6 +43,24 @@ nav > .menu > li > .menu li{
     height:23px;
 }
 
+nav > .menu a,
+nav > .menu span{
+    font-size:13px;
+}
+
+.menu{
+    margin-left:-5px;
+}
+
+.searchGroup .results,
+.searchGroup .results ul{
+    margin-left:0 !important;
+}
+
+.searchGroup .paginator{
+    margin-top:20px;
+}
+
 .menu .menu li{
     display:block;
     width:100% !important;
