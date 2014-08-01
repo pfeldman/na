@@ -67,6 +67,7 @@
 .results .feature{
     background-image: url("../images/icons.png");
     background-position: -84px -57px;
+    background-repeat:no-repeat;
     padding-left: 21px;
     float: left;
     clear: both;

@@ -167,12 +167,23 @@ Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
             this.dom.next().remove();
         }
     },
-
+    getObject : function() {
+        return this.dom.next("div");
+    },
+    disable : function() {
+        this.dom.selectmenu("disable");
+    },
+    enable : function() {
+        this.dom.selectmenu("enable");
+    },
+    refresh : function() {
+        this.dom.selectmenu();
+    },
     render : function() {
         this.dom.selectmenu({
             width: this.width,
             direction: 'down',
-            change: this.changeEvent
+            change: this.changeEvent,
         });
     }
 })

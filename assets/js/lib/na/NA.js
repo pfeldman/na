@@ -30,6 +30,24 @@ NA.Util = function(){
                     subc.prototype[i]=overrides[i];
                 }
             }
+        },
+        post : function(method, params, callback) {
+            $.ajax({
+                type: "GET",
+                url: "/exampleJson/" + method + ".json",
+                complete: function (xhr, status) {
+                    if (status === 'error' || !xhr.responseText) {
+                        if(window.console)
+                        {
+                            console.log(status);
+                        }
+                    }
+                    else
+                    {
+                        callback(xhr.responseText);
+                    }
+                }
+            });
         }
     }
 };

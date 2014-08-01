@@ -5,14 +5,14 @@ NA.WEB = function(configObj) {
 
 Util.extend(NA.WEB, NA, {
     boot : function() {
-        this.initEvents();
+        this.instanceObjects();
     },
-    initEvents : function(){
+    instanceObjects : function(){
         var topMenu = new NA.UI.Element.TopMenu({
             dom : $('nav > .menu')
         })
         
-        
+
         /*
          * Buttons configuration Example
          * 
@@ -81,26 +81,6 @@ Util.extend(NA.WEB, NA, {
                 dom : datepickerElement
             }).render();
         }
-       
-        
-        /*
-         * Combobox Configutation Example
-         * 
-         */
-        var comboboxElement = $(".combobox, #combobox");
-        if(comboboxElement.length > 0)
-        {
-            var combobox = new NA.UI.Element.Combobox({
-                dom: comboboxElement,
-                width: 200,
-                value: "Hola",
-                changeEvent: function(obj, item) {
-                    alert(1);
-                }
-            }).render();
-        }
-        
-        
         
         var buttons = $('.buttons');
         if(buttons.length > 0)

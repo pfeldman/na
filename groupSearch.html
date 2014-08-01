@@ -18,6 +18,7 @@
         <script type="text/javascript" src="assets/js/lib/na/NA.js"></script>
         <script type="text/javascript" src="assets/js/lib/na/NA.UI.js"></script>
         <script type="text/javascript" src="assets/js/client/na/NA.WEB.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.GroupList.js"></script>
         <title>Narcóticos Anónimos</title>
     </head>
     <body>
@@ -72,7 +73,7 @@
                     <fieldset>
                         <div>
                             <label>Provincia:</label>
-                            <select class="combobox">
+                            <select class="combobox state">
                                 <option value="">Todas las Provincias</option>
                                 <option value="ba">Buenos Aires</option>
                                 <option value="cf">Capital Federal</option>
@@ -81,124 +82,16 @@
                         </div>
                         <div>
                             <label>Localidad:</label>
-                            <select class="combobox">
+                            <select class="combobox city">
                                 <option value="">Todas las Localidades</option>
                                 <option value="ba">Localidad 1</option>
                                 <option value="cf">Localidad 2</option>
                                 <option value="cd">Localidad 3</option>
                             </select>
                         </div>
-                        <div class="last">
-                            <label>Barrio:</label>
-                            <select class="combobox">
-                                <option value="">Todas los Barrios</option>
-                                <option value="ba">Barrio 1</option>
-                                <option value="cf">Barrio 2</option>
-                                <option value="cd">Barrio 3</option>
-                            </select>
-                        </div>
                     </fieldset>
                 </form>
-                <ul class="paginator">
-                    <a href="#" class="page1 previous"></a>
-                    <a href="#" class="page1 page">1</a>
-                    <span class="current page">2</span>
-                    <a href="#" class="page3 page">3</a>
-                    <a href="#" class="page4 page">4</a>
-                    <span class="more page">...</span>
-                    <a href="#" class="page30 page">30</a>
-                    <a href="#" class="page3 next"></a>
-                </ul>
-                <ul class="results">
-                    <li>
-                        <a href="#"><h3>Título</h3></a>
-                        <label>Dirección 123, Barrio, Provincia</label>
-                        <ul>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                        </ul>
-                        <span class="feature">Entrega certificados Juez</span>
-                        <span class="feature">No Fumadores</span>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Título</h3></a>
-                        <label>Dirección 123, Barrio, Provincia</label>
-                        <ul>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                        </ul>
-                        <span class="feature">Entrega certificados Juez</span>
-                        <span class="feature">No Fumadores</span>
-                    </li>
-                    <li>
-                        <a href="#"><h3>Título</h3></a>
-                        <label>Dirección 123, Barrio, Provincia</label>
-                        <ul>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                            <li>
-                                <label class="day">Lunes</label>
-                                <label class="time">10:00 a 12:00</label>
-                                <label>-</label>
-                                <label class="types">Tipo1, Tipo2, Tipo3</label>
-                            </li>
-                        </ul>
-                        <span class="feature">Entrega certificados Juez</span>
-                        <span class="feature">No Fumadores</span>
-                    </li>
-                </ul>
-                <ul class="paginator">
-                    <a href="#" class="page1 previous"></a>
-                    <a href="#" class="page1 page">1</a>
-                    <span class="current page">2</span>
-                    <a href="#" class="page3 page">3</a>
-                    <a href="#" class="page4 page">4</a>
-                    <span class="more page">...</span>
-                    <a href="#" class="page30 page">30</a>
-                    <a href="#" class="page3 next"></a>
-                </ul>
+                <ul class="results"></ul>
             </div>
         </div>
         <div class="footer">

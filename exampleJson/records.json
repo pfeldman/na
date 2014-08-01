@@ -1,0 +1,126 @@
+{
+    "results": {
+        "groups" : [
+            {
+                "title" : "Group Title",
+                "address" : "Address 123",
+                "properties" : [
+                    "X",
+                    "NF"
+                ],
+                "dates" : [
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "AF",
+                            "C",
+                            "D"
+                        ]
+                    },
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "E",
+                            "IE",
+                            "L"
+                        ]
+                    },
+                    {
+                        "day" : "Wednesday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "L",
+                            "M",
+                            "P"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "Group Title",
+                "address" : "Address 123",
+                "properties" : [
+                    "X",
+                    "NF"
+                ],
+                "dates" : [
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "AF",
+                            "C",
+                            "D"
+                        ]
+                    },
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "E",
+                            "IE",
+                            "L"
+                        ]
+                    },
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "L",
+                            "M",
+                            "P"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "Group Title",
+                "address" : "Address 123",
+                "properties" : [
+                    "X",
+                    "NF"
+                ],
+                "dates" : [
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "AF",
+                            "C",
+                            "D"
+                        ]
+                    },
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "E",
+                            "IE",
+                            "L"
+                        ]
+                    },
+                    {
+                        "day" : "Monday",
+                        "startTime" : "10:00",
+                        "endTime" : "12:00",
+                        "properties" : [
+                            "L",
+                            "M",
+                            "P"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

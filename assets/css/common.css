@@ -359,6 +359,23 @@ html body.admin-menu {
     margin-top: 7px !important;
 }
 
+.smallAjax{
+    background-image: url("../images/ajax-loader.gif");
+    height: 16px;
+    position: relative;
+    right: 44px;
+    top: 2px;
+    width: 16px;
+}
+
+.ajaxLoadingBig{
+    background-image: url("../images/ajax-loader-big.gif");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 11px;
+    width: 100%;
+}
+
 .wrapper .combobox{
     background-image: url("../images/searcher.png") !important;
     background-position: 0 0 !important;

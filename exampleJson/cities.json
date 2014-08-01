@@ -1,0 +1,16 @@
+{
+    cities:[
+        {
+            "code": "l1",
+            "name": "Locali 1"
+        },
+        {
+            "code": "l2",
+            "name": "Locali 2"
+        },
+        {
+            "code": "l1",
+            "name": "Locali 3"
+        },
+    ]
+}
