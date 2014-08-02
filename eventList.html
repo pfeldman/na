@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="assets/css/960.css" />
         <link rel="stylesheet" href="assets/css/common.css" />
         <link rel="stylesheet" href="assets/css/combobox.css" />
-        <link rel="stylesheet" href="assets/css/groupSearch.css" />
+        <link rel="stylesheet" href="assets/css/eventList.css" />
         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
         <!--[if IE 7]>
             <link rel="stylesheet" href="assets/css/common-ie7.css" />
@@ -18,9 +18,9 @@
         <script type="text/javascript" src="assets/js/lib/na/NA.js"></script>
         <script type="text/javascript" src="assets/js/lib/na/NA.UI.js"></script>
         <script type="text/javascript" src="assets/js/client/na/NA.WEB.js"></script>
-        <script type="text/javascript" src="assets/js/client/na/NA.Result.js"></script>
         <script type="text/javascript" src="assets/js/client/na/NA.Filter.js"></script>
-        <script type="text/javascript" src="assets/js/client/na/NA.GroupList.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.Result.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.EventList.js"></script>
         <title>Narcóticos Anónimos</title>
     </head>
     <body>
@@ -69,30 +69,26 @@
                     <a href="#">Actual page</a>
                 </div>
             </div>
-            <div class="searchGroup container grid_24">
-                <h1>Buscá un grupo</h1>
-                <form>
-                    <fieldset>
-                        <div>
-                            <label>Provincia:</label>
-                            <select class="combobox state">
-                                <option value="">Todas las Provincias</option>
-                                <option value="ba">Buenos Aires</option>
-                                <option value="cf">Capital Federal</option>
-                                <option value="cd">Córdoba</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Localidad:</label>
-                            <select class="combobox city">
-                                <option value="">Todas las Localidades</option>
-                                <option value="ba">Localidad 1</option>
-                                <option value="cf">Localidad 2</option>
-                                <option value="cd">Localidad 3</option>
-                            </select>
-                        </div>
-                    </fieldset>
-                </form>
+            <div class="eventsList container grid_24">
+                <h1>Enterate de los próximos eventos</h1>
+                <div class="filters">
+                    <label>Mes: </label>
+                    <select class="months combobox">
+                        <option value="">Todos los Meses</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
                 <ul class="results"></ul>
             </div>
         </div>

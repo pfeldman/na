@@ -1,0 +1,31 @@
+{
+    events : [
+        {
+            title : "Título del evento",
+            date : "2014-08-02 13:00:00",
+            place : "Dirección 1234",
+            state : "Provincia",
+            city : "Localidad",
+            remarks : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+            picture_uri : "/exampleImages/poster.jpg"
+        },
+        {
+            title : "Título del evento",
+            date : "2014-08-02 13:00:00",
+            place : "Dirección 1234",
+            state : "Provincia",
+            city : "Localidad",
+            remarks : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            picture_uri : "/exampleImages/poster.jpg"
+        },
+        {
+            title : "Título del evento",
+            date : "2014-08-02 13:00:00",
+            place : "Dirección 1234",
+            state : "Provincia",
+            city : "Localidad",
+            remarks : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            picture_uri : "/exampleImages/poster.jpg"
+        }
+    ]
+}
