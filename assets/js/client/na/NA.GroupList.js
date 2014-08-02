@@ -68,19 +68,6 @@ NA.GroupList.Filter = function(configObj) {
 }
 
 Util.extend(NA.GroupList.Filter, NA, {
-    destroy : function() {
-        this.destroyChildren();
-        this.element.destroy();
-    },
-
-    destroyChildren : function(){
-        if(this.child != null)
-        {
-            this.child.destroy();
-            this.child = null;
-        }
-    },
-
     getElement : function() {
         return this.element;
     },
@@ -104,16 +91,6 @@ Util.extend(NA.GroupList.Filter, NA, {
         }
     },
 
-    reload : function() {
-        if(this.element != null)
-        {
-            this.element.destroy();
-            this.data = [];
-            this.load();
-            this.render();
-        }
-    },
-
     render : function() {
         var instance = this;
         this.load(function(){
@@ -123,19 +100,6 @@ Util.extend(NA.GroupList.Filter, NA, {
             }
         });
 
-    },
-
-    reset : function() {
-        this.setValue(null);
-    },
-
-    update: function(obj, item, scope) {
-        if(scope.getValue() != item.value)
-        {
-            scope.setValue(item.value);
-            scope.UI.refresh();
-            scope.UI.triggerSearch();
-        }
     }
 
 });
@@ -148,6 +112,8 @@ Util.extend(NA.GroupList.Filter, NA, {
 
 NA.GroupList.Filter.State = function(configObj) {
     this.change = null;
+    this.width = 200;
+    
     NA.GroupList.Filter.State.superclass.constructor.call(this, configObj);
     
     this.render();
@@ -161,7 +127,7 @@ Util.extend(NA.GroupList.Filter.State, NA.GroupList.Filter, {
         {
             this.element = new NA.UI.Element.Combobox({
                 dom: this.UI.container.find(".state"),
-                width: 200,
+                width: this.width,
                 changeEvent: function(obj, item) {
                     if(typeof instance.change == "function")
                     {
@@ -184,6 +150,7 @@ Util.extend(NA.GroupList.Filter.State, NA.GroupList.Filter, {
 
 NA.GroupList.Filter.City = function(configObj) {
     this.change = null;
+    this.width = 200;
     NA.GroupList.Filter.State.superclass.constructor.call(this, configObj);
     
     this.render();
@@ -197,7 +164,7 @@ Util.extend(NA.GroupList.Filter.City, NA.GroupList.Filter, {
         {
             this.element = new NA.UI.Element.Combobox({
                 dom: comboboxElement,
-                width: 200,
+                width: this.width,
                 changeEvent: function(obj, item) {
                     if(typeof instance.change == "function")
                     {
