@@ -183,7 +183,7 @@ Util.extend(NA.UI.Element.Combobox, NA.UI.Element, {
         this.dom.selectmenu({
             width: this.width,
             direction: 'down',
-            change: this.changeEvent,
+            change: this.changeEvent
         });
     }
 })
