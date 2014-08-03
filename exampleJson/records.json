@@ -1,126 +1,615 @@
 {
-    "results": {
-        "groups" : [
-            {
-                "title" : "Group Title",
-                "address" : "Address 123",
-                "properties" : [
-                    "X",
-                    "NF"
-                ],
-                "dates" : [
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "AF",
-                            "C",
-                            "D"
-                        ]
-                    },
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "E",
-                            "IE",
-                            "L"
-                        ]
-                    },
-                    {
-                        "day" : "Wednesday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "L",
-                            "M",
-                            "P"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title" : "Group Title",
-                "address" : "Address 123",
-                "properties" : [
-                    "X",
-                    "NF"
-                ],
-                "dates" : [
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "AF",
-                            "C",
-                            "D"
-                        ]
-                    },
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "E",
-                            "IE",
-                            "L"
-                        ]
-                    },
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "L",
-                            "M",
-                            "P"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title" : "Group Title",
-                "address" : "Address 123",
-                "properties" : [
-                    "X",
-                    "NF"
-                ],
-                "dates" : [
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "AF",
-                            "C",
-                            "D"
-                        ]
-                    },
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "E",
-                            "IE",
-                            "L"
-                        ]
-                    },
-                    {
-                        "day" : "Monday",
-                        "startTime" : "10:00",
-                        "endTime" : "12:00",
-                        "properties" : [
-                            "L",
-                            "M",
-                            "P"
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+"nodes": [
+{
+"node": {
+"title": "Flores",
+"field_barrio": " ",
+"field_complemento_de_direcci_n": "Iglesia Evangélica ",
+"field_direcci_n": "Yerbal 2451",
+"field_barrio_localidad": "Flores",
+"field_provincia": "Ciudad Autonoma de Buenos Aires",
+"nid": "10",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Abierta, Reunión Cerrada, Reunión para Recién llegados\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Reunión para Recién llegados\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Sólo Mujeres\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Plaza de los Periodistas",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Entrada por los Boy Scout ",
+"field_direcci_n": "Av Nazca 900",
+"field_barrio_localidad": "Flores",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "11",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"13:00\",\"field_inicio\":\"11:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Volver a Empezar",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia San Pedro ",
+"field_direcci_n": "Bermudez 2021",
+"field_barrio_localidad": "Floresta",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "12",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Caballito",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia  Buenos Aires ",
+"field_direcci_n": "Av Gaona 1730",
+"field_barrio_localidad": "Caballito",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "13",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Plaza Irlanda ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Plaza Irlanda",
+"field_direcci_n": "Av Gaona 2300",
+"field_barrio_localidad": "Caballito",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "14",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"13:00\",\"field_inicio\":\"11:00\",\"field_tipo_de_reuni_n\":\"Reunión Abierta\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Alegría ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Hospital Ameghino",
+"field_direcci_n": "Av Córdoba 3100",
+"field_barrio_localidad": "Almagro",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "15",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Si Queres Podes ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia ",
+"field_direcci_n": "Quintino Bocayuva 144",
+"field_barrio_localidad": "Almagro",
+"field_provincia": "Ciudad Autonoma de Buenos Aires",
+"nid": "16",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:45\",\"field_inicio\":\"19:45\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:45\",\"field_inicio\":\"19:45\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:45\",\"field_inicio\":\"19:45\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:45\",\"field_inicio\":\"19:45\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:45\",\"field_inicio\":\"20:15\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Juntas Podemos ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia ",
+"field_direcci_n": "Quintino Bocayuva 144",
+"field_barrio_localidad": "Almagro",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "17",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:45\",\"field_inicio\":\"19:45\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Sólo Mujeres\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Villa Crespo ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia la Consolación ",
+"field_direcci_n": "Scalabrini Ortiz 1073",
+"field_barrio_localidad": "Villa Crespo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "18",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Diga 33",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Av Cordoba 5658",
+"field_barrio_localidad": "Villa Crespo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "19",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"19:00\",\"field_inicio\":\"17:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Floresta ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Pasaje Alejandro Korn 4218",
+"field_barrio_localidad": "Floresta",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "20",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Armonía ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Frente a la Iglesia ",
+"field_direcci_n": "Gascón 1365",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "21",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Oración y Meditación ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Frente a la Iglesia ",
+"field_direcci_n": "Gascón 1365",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "22",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"19:45\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Buen Día, Día ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia Loreto ",
+"field_direcci_n": "Juncal 3115",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "23",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"11:30\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Debajo del Puente Nos Recuperamos ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Colegio Don Bosco ",
+"field_direcci_n": "Dorrego 2124",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "24",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Despertar Espiritual ",
+"field_barrio": " ",
+"field_complemento_de_direcci_n": "Iglesia Loreto ",
+"field_direcci_n": "Juncal 3115",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "25",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"11:00\",\"field_inicio\":\"9:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"11:00\",\"field_inicio\":\"9:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"11:00\",\"field_inicio\":\"9:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"11:00\",\"field_inicio\":\"9:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"11:00\",\"field_inicio\":\"9:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"11:30\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Desayuno\"}}]}                "
+}
+},
+{
+"node": {
+"title": "La Glorieta ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "En la Plaza",
+"field_direcci_n": "Av libertador 3500",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "26",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"13:00\",\"field_inicio\":\"11:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Paso a Paso ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia Loreto ",
+"field_direcci_n": "Juncal 3115",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "27",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Sólo Mujeres\"}}]}                "
+}
+},
+{
+"node": {
+"title": "The English Speaking Meeting",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia Loreto ",
+"field_direcci_n": "Juncal 3115",
+"field_barrio_localidad": "Palermo ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "28",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Un Día a la Vez ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "CGP 14",
+"field_direcci_n": "Beruti 3225",
+"field_barrio_localidad": "Palermo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "29",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Abre los feriados, Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "La Paternal",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Av. San Martín 4460 ",
+"field_barrio_localidad": "Paternal",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "30",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Juntos es Mejor ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Arroyo 900",
+"field_barrio_localidad": "Retiro",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "31",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"20:30\",\"field_inicio\":\"18:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Conesafe",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Conesa 2224",
+"field_barrio_localidad": "Belgrano ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "32",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"12:30\",\"field_inicio\":\"10:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Hacer Caso y Salud",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia San Patricio",
+"field_direcci_n": "Estomba 1942",
+"field_barrio_localidad": "Belgrano ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "33",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "La Redonda ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia La Redonda",
+"field_direcci_n": "Vuelta de Obligado 2042",
+"field_barrio_localidad": "Belgrano ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "34",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Crecer",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Bruselas 1022",
+"field_barrio_localidad": "Versalles ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "35",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Reunión para Recién llegados\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Sólo Mujeres\"}}]}                "
+}
+},
+{
+"node": {
+"title": "El Ultimo Vagón del Ultimo Tren ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Grecia 4370",
+"field_barrio_localidad": "Nuñez",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "36",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Pirovano",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Hospital Pirovano ( Pasillo Central)",
+"field_direcci_n": "Monrroe 3555",
+"field_barrio_localidad": "Coghlan",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "37",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Seguir Adelante ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Manuel Artigas 6164",
+"field_barrio_localidad": "Mataderos ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "38",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Mataderos",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Av. Alberdi 5250",
+"field_barrio_localidad": "Mataderos ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "39",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Tradiciones y Sabiduría ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia del Niño Jesus",
+"field_direcci_n": "Murguiondo 4055",
+"field_barrio_localidad": "Lugano ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "40",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Renacer",
+"field_barrio": "",
+"field_complemento_de_direcci_n": " Parroquia Ntra Sra Del Carmen",
+"field_direcci_n": "Triunvirato 4940",
+"field_barrio_localidad": "Urquiza ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "41",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Larrea y Beruti",
+"field_barrio": "",
+"field_complemento_de_direcci_n": " Parroquia Santisimo Redentor",
+"field_direcci_n": "Larrea 1252 ",
+"field_barrio_localidad": "Recoleta ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "42",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Abierta\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"22:30\",\"field_inicio\":\"21:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Puerta Abierta ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia San Ignacio de Loyola ",
+"field_direcci_n": "Bolivar 225",
+"field_barrio_localidad": "San Telmo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "43",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"14:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"14:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Abierta\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"14:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"14:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Abierta, Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"14:00\",\"field_inicio\":\"12:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"13:00\",\"field_inicio\":\"11:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"13:00\",\"field_inicio\":\"11:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "San Telmo ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Humberto Primero 330",
+"field_barrio_localidad": "San Telmo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "46",
+"field_caracter_sticas_del_grupo": "Ofrece Certificado para Juez, No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"20:30\",\"field_inicio\":\"18:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Reconocer ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia San Ignacio de Loyola ",
+"field_direcci_n": "Bolivar 225",
+"field_barrio_localidad": "San Telmo",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "47",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"9:30\",\"field_inicio\":\"8:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"9:30\",\"field_inicio\":\"8:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"9:30\",\"field_inicio\":\"8:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"9:30\",\"field_inicio\":\"8:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"9:30\",\"field_inicio\":\"8:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Amor y Honestidad",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia San Cayetano",
+"field_direcci_n": "Cuzco 150",
+"field_barrio_localidad": "Liniers ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "48",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Pompeya",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Esquiú 974",
+"field_barrio_localidad": "Pompeya ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "49",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Espora",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Santo Domingo 3940 ",
+"field_barrio_localidad": "Pompeya ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "50",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Parque Chacabuco",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia Santa Isabel ",
+"field_direcci_n": "San José de Calazanz 1095",
+"field_barrio_localidad": "Parque Chacabuco",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "51",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"21:30\",\"field_inicio\":\"19:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"12:30\",\"field_inicio\":\"10:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"16:00\",\"field_inicio\":\"14:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Vivir Sin Drogas ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Hospital de Clínicas ",
+"field_direcci_n": "Paraguay 2250",
+"field_barrio_localidad": "Recoleta ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "52",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"12:00\",\"field_inicio\":\"10:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Arco Iris ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Callao 339 ",
+"field_barrio_localidad": "Balvanera ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "53",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Viernes\",\"field_fin\":\"20:30\",\"field_inicio\":\"18:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Sigamos Escribiendo ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia Sta. Trinidad  ",
+"field_direcci_n": "Cabildo 3680",
+"field_barrio_localidad": "Saavedra  ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "54",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"21:30\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Jueves\",\"field_fin\":\"21:30\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"20:30\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Abierta\"}},{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"10:30\",\"field_inicio\":\"9:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Domingo\",\"field_fin\":\"12:30\",\"field_inicio\":\"10:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}},{\"dia\":{\"Dia\":\"Sabado\",\"field_fin\":\"21:45\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Zapiola ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "Zapiola 3181",
+"field_barrio_localidad": "Saavedra  ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "55",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"21:00\",\"field_inicio\":\"19:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "12 Tradición ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "",
+"field_direcci_n": "San Isidro Labrador 4620",
+"field_barrio_localidad": "Saavedra ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "56",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"20:00\",\"field_inicio\":\"18:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada, Escritura\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Grupo Del Parque ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Iglesia S.J Bautista ",
+"field_direcci_n": "Rogelio Yrurtia 5923",
+"field_barrio_localidad": "Saavedra  ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "57",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Miercoles\",\"field_fin\":\"20:30\",\"field_inicio\":\"18:30\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+},
+{
+"node": {
+"title": "Serenidad, Valor y Sabiduría ",
+"field_barrio": "",
+"field_complemento_de_direcci_n": "Parroquia Madre de Dios ",
+"field_direcci_n": "Escalada 2350",
+"field_barrio_localidad": "Parque Avellaneda ",
+"field_provincia": "Ciudad Autónoma de Buenos Aires ",
+"nid": "58",
+"field_caracter_sticas_del_grupo": "No Fumadores",
+"dias": "                        {\"dias\":[{\"dia\":{\"Dia\":\"Lunes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}},{\"dia\":{\"Dia\":\"Martes\",\"field_fin\":\"22:00\",\"field_inicio\":\"20:00\",\"field_tipo_de_reuni_n\":\"Reunión Cerrada\"}}]}                "
+}
+}
+]
 }
