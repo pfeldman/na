@@ -145,14 +145,20 @@ Util.extend(NA.GroupList.Filter.City, NA.GroupList.Filter, {
         };
         
         Util.post("cities", params, function(cities){
-            cities = eval(cities);
+            cities = eval('(' + cities + ')').nodes;
             var options = instance.element.dom.find("option");
             options.slice(1).remove();
-            
+            var hashCity = new Object();
             for(c in cities)
             {
                 var city = cities[c];
-                instance.element.dom.append('<option value="' + city.code + '">' + city.name + '</option>');
+                hashCity[city.node.field_barrio_localidad] = city.node.field_barrio_localidad;   
+            }
+            
+            for(c in hashCity)
+            {
+                var city = hashCity[c];
+                instance.element.dom.append('<option value="' + city + '">' + city + '</option>');
             }
             instance.element.refresh();
             instance.hideOverlay();
@@ -191,8 +197,7 @@ Util.extend(NA.GroupList.Result, NA.Result, {
         instance.showOverlay();
         Util.post("records", params, function(data) {
             var data = eval("(" + data + ")");
-            
-            var groups = data.results.groups;
+            var groups = data.nodes;
             instance.destroyRecords();
             for(g in groups)
             {
@@ -220,60 +225,30 @@ NA.GroupList.Result.Record = function(configObj) {
 
 Util.extend(NA.GroupList.Result.Record, NA.GroupList.Result, {
     render : function(){
-        var days = new Object();
-        days["Monday"] = "Lunes";
-        days["Tuesday"] = "Martes";
-        days["Wednesday"] = "Miércoles";
-        days["Thursday"] = "Jueves";
-        days["Friday"] = "Viernes";
-        days["Saturday"] = "Sábado";
-    
-        var properties = new Object();
-        properties["X"] = "Ofrece Certificado para Juez";
-        properties["NF"] = "No Fumadores";
-        properties["A"] = "Reunión Abierta";
-        properties["AF"] = "Abre los feriados";
-        properties["C"] = "Reunión Cerrada";
-        properties["D"] = "Desayuno";
-        properties["E"] = "Escritura";
-        properties["IE"] = "Intereses Especiales";
-        properties["L"] = "Literatura";
-        properties["M"] = "Sólo Mujeres";
-        properties["P"] = "Pasos";
-        properties["T"] = "Tradiciones";
-        properties["RL"] = "Reunión para Recién llegados";
-        properties["10+"] = "Para 10 años limpios ó mas";
-    
         var record = $('<li></li>');
-        record.append('<a href="#"><h3>' + this.data.title + '</h3></a>');
-        record.append('<label>' + this.data.address + '<label>');
-        var dates = this.data.dates;
+        var data = this.data.node;
+        record.append('<a href="#"><h3>' + data.title + '</h3></a>');
+        record.append('<label>' + data.field_direcci_n + ', ' + data.field_provincia + ', ' + data.field_barrio_localidad + '<label>');
+        var dates = eval('(' + data.dias + ')').dias;
         
         var datesObject = $('<ul></ul>');
         for(d in dates)
         {
             var dateObject = $('<li></li>');
-            var date = dates[d];
-            dateObject.append('<label class="day">' + days[date.day] + '</label>');
-            dateObject.append('<label class="time">' + date.startTime + ' a ' + date.endTime + '</label>');
+            var date = dates[d].dia;
+            dateObject.append('<label class="day">' + date.Dia + '</label>');
+            dateObject.append('<label class="time">' + date.field_inicio + ' a ' + date.field_fin + '</label>');
             dateObject.append('<label>-</label>');
             datesObject.append(dateObject);
             
-            var props = date.properties;
-            var propsTranslated = [];
-            for(p in props)
-            {
-                var prop = properties[props[p]];
-                propsTranslated.push(prop);
-            }
-            dateObject.append('<label class="types">' + propsTranslated.join(", ") + '</label>');
+            dateObject.append('<label class="types">' + date.field_tipo_de_reuni_n + '</label>');
         }
         record.append(datesObject);
         
-        var props = this.data.properties;
+        var props = this.data.node.field_caracter_sticas_del_grupo.split(', ');
         for(p in props)
         {
-            var prop = properties[props[p]];
+            var prop = props[p];
             record.append('<span class="feature">' + prop + '</span>');
         }
         
