@@ -398,6 +398,11 @@ html body.admin-menu {
     width: 23px;
 }
 
+.block a,p {
+    float: left;
+    width: 100%;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     nav > .menu > li{
         margin-top: -5px !important;    
