@@ -398,7 +398,7 @@ html body.admin-menu {
     width: 23px;
 }
 
-.block a,p {
+.block a.title,p {
     float: left;
     width: 100%;
 }
