@@ -37,18 +37,6 @@
     position:fixed;
 }
 
-.pageOverlay{
-    background-image: url("../images/overlay.png");
-    height: 100%;
-    left: 0;
-    opacity: 0.7;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    filter: alpha(opacity=70);
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 .results{
     list-style: outside none;
     padding: 0;

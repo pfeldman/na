@@ -204,6 +204,7 @@ Util.extend(NA.GroupList.Result, NA.Result, {
                 var group = groups[g];
                 var record = new NA.GroupList.Result.Record({
                     data : group,
+                    completeData : data.nodes,
                     dom : instance.dom.find(".results")
                 }).render();
                 instance.records.push(record);
@@ -219,12 +220,14 @@ Util.extend(NA.GroupList.Result, NA.Result, {
 
 NA.GroupList.Result.Record = function(configObj) {
     this.data = [];
+    this.completeData = [];
     
     NA.GroupList.Result.Record.superclass.constructor.call(this, configObj);
 }
 
 Util.extend(NA.GroupList.Result.Record, NA.GroupList.Result, {
     render : function(){
+        var instance = this;
         var record = $('<li></li>');
         var data = this.data.node;
         record.append('<a href="#"><h3>' + data.title + '</h3></a>');
@@ -251,6 +254,18 @@ Util.extend(NA.GroupList.Result.Record, NA.GroupList.Result, {
             var prop = props[p];
             record.append('<span class="feature">' + prop + '</span>');
         }
+        
+        var showInMap = $('<a class="showInMap" href="#">Mostrar en el Mapa</a>');
+        showInMap.data('id', this.data.node.nid);
+        record.append(showInMap);
+        
+        showInMap.click(function(){
+            var map = new NA.Map({
+                data : instance.completeData,
+                id : $(this).data('id') 
+            });
+            map.render();
+        })
         
         this.dom.append(record);
     }
