@@ -12,9 +12,8 @@ Util.extend(NA.WEB, NA, {
             dom : $('nav > .menu')
         })
         
-
-        /*
-         * Buttons configuration Example
+        /**
+         * Instance all buttons in site with class ui-normal
          * 
          */
         
@@ -25,6 +24,11 @@ Util.extend(NA.WEB, NA, {
                 dom : button
             }).render();
         }
+        
+        /*
+         * Buttons configuration Example
+         * 
+         */
         
         var buttonGroup = $(".checkGroup");
         if(buttonGroup.length > 0)

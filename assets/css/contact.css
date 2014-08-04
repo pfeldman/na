@@ -1,0 +1,67 @@
+.mandatory{
+    color: red;
+    font-size: 16px;
+}
+
+.contactForm form{
+    margin-top:15px;
+}
+
+.contactForm form label{
+    clear: none;
+    float: left;
+    position: relative;
+    top: 3px;
+    width: 142px;
+}
+
+.contactForm form input[type='text'],
+textarea{
+    border: 1px solid #b2bcc6;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.grouped{
+    float:left;
+    width:auto !important;
+    margin-right:25px;
+}
+
+.grouped.right label{
+    width:auto !important;
+    margin-right:10px;
+}
+
+.fullName{
+    width:555px;
+}
+
+.zip{
+    width: 136px;
+}
+
+.address{
+    width: 300px;
+}
+
+.city, 
+.state{
+    width:232px;
+}
+
+.phone,
+.mail,
+.checkEmail{
+    width:300px;
+}
+
+textarea{
+    min-height: 100px;
+    width: 553px;
+}
+
+.contactForm input[type='submit']{
+    float:left;
+    margin-top:20px;
+}

@@ -1,0 +1,132 @@
+﻿<html>
+    <head>
+        <link rel="icon" type="image/ico" href="assets/images/favicon.png" />
+        <link rel="stylesheet" href="assets/css/960.css" />
+        <link rel="stylesheet" href="assets/css/common.css" />
+        <link rel="stylesheet" href="assets/css/contact.css" />
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="assets/css/common-ie7.css" />
+        <![endif]-->
+        <!--[if IE 8]>
+            <link rel="stylesheet" href="assets/css/common-ie8.css" />
+        <![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/third-party/jquery.ui.selectmenu.js"></script>
+        <script type="text/javascript" src="assets/js/lib/na/NA.js"></script>
+        <script type="text/javascript" src="assets/js/lib/na/NA.UI.js"></script>
+        <script type="text/javascript" src="assets/js/client/na/NA.WEB.js"></script>
+        <title>Narcóticos Anónimos</title>
+    </head>
+    <body>
+        <div class="wrapper container_24">
+            <div class="header">
+                <a class="logo" href="/">
+                    <img src="assets/images/logo.png" />
+                    <span>
+                        <label>Narcóticos Anónimos</label>
+                        <em>Argentina</em>
+                    </span>
+                </a>
+                <form class="search" method="POST" action="search.php">
+                    <fieldset>
+                        <input type="text" name="search" />
+                        <input type="submit" value="" />
+                    </fieldset>
+                </form>
+                <nav>
+                    <ul class="menu">
+                        <li class="first expanded" id="menu-1">
+                            <a href="/informaci%C3%B3n-al-publico/informaci%C3%B3n-sobre-na" title="">Información al Publico</a>
+                            <ul class="menu">
+                                <li class="first leaf">
+                                    <a href="/informaci%C3%B3n-al-publico/como-empezar-un-grupo">Como empezar un Grupo</a>
+                                </li>
+                                <li class="leaf"><a href="/informaci%C3%B3n-al-publico/informaci%C3%B3n-sobre-na" title="¿Que es el Programa de Narcóticos Anónimos?">Información sobre NA</a></li>
+                                <li class="leaf"><a href="/informaci%C3%B3n-al-publico/%C2%BFes-para-m%C3%AD-na">¿Es para mí NA?</a></li>
+                                <li class="leaf"><a href="/informaci%C3%B3n-al-publico/literatura">Literatura</a></li>
+                                <li class="leaf"><a href="/node/45">Recursos para Profesionales</a></li>
+                                <li class="last leaf"><a href="/informaci%C3%B3n-al-publico/qu%C3%A9-sucede-en-una-reuni%C3%B3n-de-na">Qué sucede en una reunión de NA</a></li>
+                            </ul>
+                        </li>
+                        <li class="leaf" id="menu-2"><span title="" class="nolink">Periodicos</span></li>
+                        <li class="leaf" id="menu-3"><span title="" class="nolink">Eventos</span></li>
+                        <li class="leaf" id="menu-4"><span title="" class="nolink">Para nuestros miembros</span></li>
+                        <li class="leaf" id="menu-5"><span title="" class="nolink">Contacto</span></li>
+                        <li class="last leaf" id="menu-6"><span title="" class="nolink">Encontrar una reunión</span></li>
+                    </ul>        
+                </nav>
+                <div class="breadcrumb">
+                    <a href="#">Home</a>
+                    <label>></label>
+                    <a href="#">Some page</a>
+                    <label>></label>
+                    <a href="#">Actual page</a>
+                </div>
+            </div>
+            <div class="contactForm container grid_24">
+                <h1>Formulario de Contacto</h1>
+                <em>Para recibir información sobre nuestras actividades complete el siguiente formulario. Los campos marcado con <em class="mandatory">*</em> son obligatorios</em>
+                <form action="contacto.php" method="POST">
+                    <p>
+                        <label>Nombre y Apellido: <em class="mandatory">*</em></label>
+                        <input type="text" placeholder="Nombre y Apellido" class="fullName" />
+                    </p>
+                    <p class="grouped">
+                        <label>Dirección: </label>
+                        <input type="text" placeholder="Dirección" class="address" />
+                    </p>
+                    <p class="grouped right">
+                        <label>Código Postal: </label>
+                        <input type="text" placeholder="Código Postal" class="zip" />
+                    </p>
+                    <p class="grouped">
+                        <label>Ciudad: </label>
+                        <input type="text" placeholder="Ciudad" class="city" />
+                    </p>
+                    <p class="grouped right">
+                        <label>Provincia: </label>
+                        <input type="text" placeholder="Provincia" class="state" />
+                    </p>
+                    <p>
+                        <label>Teléfono: <em class="mandatory">*</em></label>
+                        <input type="text" placeholder="Teléfono" class="phone" />
+                    </p>
+                    <p>
+                        <label>Email: <em class="mandatory">*</em></label>
+                        <input type="text" placeholder="Email" class="mail" />
+                    </p>
+                    <p>
+                        <label>Confirmar Email: <em class="mandatory">*</em></label>
+                        <input type="text" placeholder="Email" class="checkEmail" />
+                    </p>
+                    <p>
+                        <label>Mensaje: <em class="mandatory">*</em></label>
+                        <textarea type="text" placeholder="Mensaje" class="message"></textarea>
+                    </p>
+                    
+                    <input class="ui-normal" type="submit" value="Enviar" />
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container_24">
+                <div class="topPart">
+                    <a href="/?ID=literature">Literature &amp; Other Products</a><label class="sep">|</label>
+                    <a href="/?ID=news">News</a> <label class="sep">|</label>
+                    <a href="/?ID=donation-external-index">Contribute</a> <label class="sep">|</label>
+                    <a href="?ID=home-content-fm">Find a Meeting </a> <label class="sep">|</label>
+                    <img alt="RSS" src="assets/images/rss.png" />
+                    <a href="#">RSS</a>
+                    <label class="sep">|</label>
+                    <img alt="Mobile site" src="assets/images/mobile.png" />
+                    <a href="http://m.na.localhost/">Mobile site</a>
+                </div>
+                <div class="bottomPart">
+                    <label>Copyright 2012 NA World Services, Inc. All rights reserved.</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
