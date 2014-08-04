@@ -65,3 +65,19 @@ textarea{
     float:left;
     margin-top:20px;
 }
+
+.contactForm div.error{
+    background-color: #ffb7b7;
+    background-image: url("../images/warning-icon.png");
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 10px;
+    padding: 10px 8px 8px 34px;
+}
+
+.contactForm input.error{
+    border: 1px solid red !important;
+    color:red;
+}

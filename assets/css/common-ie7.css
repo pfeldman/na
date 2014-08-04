@@ -121,3 +121,9 @@ nav > .menu > li{
     margin-top: 25px;
     width:825px;
 }
+
+.contactForm .grouped{
+    width:460px;
+    float:left !important;
+    margin-bottom:20px;
+} 

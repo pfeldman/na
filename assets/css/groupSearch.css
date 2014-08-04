@@ -136,6 +136,7 @@
     position: absolute;
     top: 20px;
     width: 852px;
+    z-index:1000;
 }
 
 .mapContent .closeButton{
@@ -157,3 +158,4 @@
     width:300px;
     height:100px;
 }
+

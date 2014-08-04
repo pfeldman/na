@@ -67,11 +67,12 @@
             </div>
             <div class="contactForm container grid_24">
                 <h1>Formulario de Contacto</h1>
+                <div class="error">El campo 'Nombre y Apellido es obligatorio'</div>
                 <em>Para recibir información sobre nuestras actividades complete el siguiente formulario. Los campos marcado con <em class="mandatory">*</em> son obligatorios</em>
                 <form action="contacto.php" method="POST">
                     <p>
                         <label>Nombre y Apellido: <em class="mandatory">*</em></label>
-                        <input type="text" placeholder="Nombre y Apellido" class="fullName" />
+                        <input type="text" placeholder="Nombre y Apellido" class="fullName error" />
                     </p>
                     <p class="grouped">
                         <label>Dirección: </label>
