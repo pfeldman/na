@@ -13,7 +13,7 @@
 }
 
 .subscribeTitle{
-    background-image: url("../images/subscribe.png");
+    background-image: url("../images/telephone.png");
     background-repeat: no-repeat;
     color: #1B74BE;
     display: block;
@@ -29,10 +29,6 @@
 
 .subscribe label{
     margin-left: 21px;
-}
-
-.subscribe span:hover{
-    color:#2B8E20;
 }
 
 .downloads{
